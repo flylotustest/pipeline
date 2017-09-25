@@ -60,7 +60,7 @@ build:
     - script:
         name: go test
         code: |
-          go test -v $(glide novender)
+          go test -v $(glide novendor)
 
     - script:
         name: copy files to wercker output
